@@ -5,7 +5,7 @@ export const StoreContext = createContext(null);
 
 export default function StoreContextProvider(props) {
   const [cartItems, setCartItems] = useState({});
-  const url = "http://localhost:3000";
+  const url = "https://quickbite-backend-kjhn.onrender.com";
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
